@@ -2475,7 +2475,7 @@ figure {
   display: none;
 }
 
-.button-wrapper.secondary-button.sec-btton-Raj {
+.button-wrapper.secondary-button.sec-btton-Rajsingh {
   display: block;
 }
 
@@ -3171,7 +3171,7 @@ figure {
   font-weight: 300;
 }
 
-.Raj-video-player-div {
+.popup-video-player-div {
   z-index: 9999999;
   opacity: 0;
   background-color: #000000b3;
@@ -3186,7 +3186,7 @@ figure {
   inset: 0%;
 }
 
-.Raj-container {
+.popup-container {
   justify-content: center;
   align-items: center;
   width: 100%;
@@ -3217,7 +3217,7 @@ figure {
   position: static;
 }
 
-.Raj-cross-container-div {
+.popup-cross-container-div {
   max-width: 1240px;
   height: 100%;
   margin-left: auto;
@@ -3248,7 +3248,7 @@ figure {
   display: none;
 }
 
-.open-Raj {
+.open-popup {
   text-decoration: none;
 }
 
@@ -3256,11 +3256,11 @@ figure {
   width: 80%;
 }
 
-.Raj-bg {
+.popup-bg {
   display: none;
 }
 
-.sec-Raj-button-div {
+.sec-popup-button-div {
   margin-left: auto;
   margin-right: auto;
   display: inline-block;
@@ -3270,7 +3270,7 @@ figure {
   display: none;
 }
 
-.Raj-video-player-2 {
+.popup-video-player-2 {
   z-index: 9999999;
   opacity: 0;
   background-color: #000000b3;
@@ -3281,11 +3281,11 @@ figure {
   inset: 0%;
 }
 
-.open-Raj2 {
+.open-popup2 {
   text-decoration: none;
 }
 
-.Raj-bg2 {
+.popup-bg2 {
   display: block;
 }
 
@@ -4662,7 +4662,7 @@ figure {
   display: flex;
 }
 
-.Raj {
+.Rajsingh {
   z-index: 10;
   background-color: #fff;
   justify-content: center;
@@ -4674,7 +4674,7 @@ figure {
   overflow: auto;
 }
 
-.Raj.get-access-Raj, .Raj.invite-Raj {
+.Rajsingh.get-access-Rajsingh, .Rajsingh.invite-Rajsingh {
   z-index: 510;
   -webkit-backdrop-filter: blur(5px);
   backdrop-filter: blur(5px);
@@ -4688,7 +4688,7 @@ figure {
   font-weight: 700;
 }
 
-.Raj-form {
+.Rajsingh-form {
   grid-column-gap: 16px;
   grid-row-gap: 10px;
   flex-direction: column;
@@ -4712,18 +4712,18 @@ figure {
   box-shadow: 8px 8px 48px #316bff80;
 }
 
-.Raj-close-btn {
+.Rajsingh-close-btn {
   cursor: pointer;
   position: absolute;
   inset: 24px 32px auto auto;
 }
 
-.Raj-close-btn.invite {
+.Rajsingh-close-btn.invite {
   top: 10px;
   right: 10px;
 }
 
-.invite-Raj-window {
+.invite-Rajsingh-window {
   background-color: #fff;
   border-radius: 10px;
   max-width: 420px;
@@ -4738,7 +4738,7 @@ figure {
   font-weight: 700;
 }
 
-.Raj-form-heading {
+.Rajsingh-form-heading {
   color: #000;
   text-align: center;
   margin-bottom: 1rem;
@@ -7086,7 +7086,7 @@ figure {
     margin-top: 15px;
   }
 
-  .Raj-cross-container-div {
+  .Rajsingh-cross-container-div {
     padding-left: 20px;
     padding-right: 20px;
   }
@@ -7732,7 +7732,7 @@ figure {
     display: none;
   }
 
-  .Raj-cross-container-div {
+  .Rajsingh-cross-container-div {
     padding: 0 10px;
   }
 
@@ -7767,7 +7767,7 @@ figure {
     width: 95%;
   }
 
-  .open-Raj {
+  .open-Rajsingh {
     display: none;
   }
 
@@ -7935,16 +7935,16 @@ figure {
     flex-direction: column;
   }
 
-  .Raj {
+  .Rajsingh {
     align-items: flex-start;
   }
 
-  .Raj-close-btn {
+  .Rajsingh-close-btn {
     top: 10px;
     right: 20px;
   }
 
-  .invite-Raj-window {
+  .invite-Rajsingh-window {
     margin-top: 30px;
   }
 
@@ -8383,7 +8383,7 @@ figure {
     width: 60%;
   }
 
-  .Raj-bg, .open-Raj {
+  .Rajsingh-bg, .open-Rajsingh {
     display: none;
   }
 
@@ -8638,17 +8638,17 @@ figure {
     font-size: .75rem;
   }
 
-  .Raj {
+  .Rajsingh {
     padding: 16px;
   }
 
-  .Raj-close-btn {
+  .Rajsingh-close-btn {
     padding: 6px;
     top: 5px;
     right: 10px;
   }
 
-  .Raj-form-heading {
+  .Rajsingh-form-heading {
     font-size: 24px;
   }
 
