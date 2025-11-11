@@ -4662,7 +4662,7 @@ figure {
   display: flex;
 }
 
-.popup {
+.Rajsingh {
   z-index: 10;
   background-color: #fff;
   justify-content: center;
@@ -4674,7 +4674,7 @@ figure {
   overflow: auto;
 }
 
-.popup.get-access-popup, .popup.invite-popup {
+.Rajsingh.get-access-Rajsingh, .Rajsingh.invite-Rajsingh {
   z-index: 510;
   -webkit-backdrop-filter: blur(5px);
   backdrop-filter: blur(5px);
@@ -4688,7 +4688,7 @@ figure {
   font-weight: 700;
 }
 
-.popup-form {
+.Rajsingh-form {
   grid-column-gap: 16px;
   grid-row-gap: 10px;
   flex-direction: column;
@@ -4712,18 +4712,18 @@ figure {
   box-shadow: 8px 8px 48px #316bff80;
 }
 
-.popup-close-btn {
+.Rajsingh-close-btn {
   cursor: pointer;
   position: absolute;
   inset: 24px 32px auto auto;
 }
 
-.popup-close-btn.invite {
+.Rajsingh-close-btn.invite {
   top: 10px;
   right: 10px;
 }
 
-.invite-popup-window {
+.invite-Rajsingh-window {
   background-color: #fff;
   border-radius: 10px;
   max-width: 420px;
@@ -4738,7 +4738,7 @@ figure {
   font-weight: 700;
 }
 
-.popup-form-heading {
+.Rajsingh-form-heading {
   color: #000;
   text-align: center;
   margin-bottom: 1rem;
@@ -7086,7 +7086,7 @@ figure {
     margin-top: 15px;
   }
 
-  .Rajsingh-cross-container-div {
+  .popup-cross-container-div {
     padding-left: 20px;
     padding-right: 20px;
   }
@@ -7732,7 +7732,7 @@ figure {
     display: none;
   }
 
-  .Rajsingh-cross-container-div {
+  .popup-cross-container-div {
     padding: 0 10px;
   }
 
@@ -7767,7 +7767,7 @@ figure {
     width: 95%;
   }
 
-  .open-Rajsingh {
+  .open-popup {
     display: none;
   }
 
@@ -7935,16 +7935,16 @@ figure {
     flex-direction: column;
   }
 
-  .Rajsingh {
+  .popup {
     align-items: flex-start;
   }
 
-  .Rajsingh-close-btn {
+  .popup-close-btn {
     top: 10px;
     right: 20px;
   }
 
-  .invite-Rajsingh-window {
+  .invite-popup-window {
     margin-top: 30px;
   }
 
@@ -8383,7 +8383,7 @@ figure {
     width: 60%;
   }
 
-  .Rajsingh-bg, .open-Rajsingh {
+  .popup-bg, .open-popup {
     display: none;
   }
 
@@ -8638,17 +8638,17 @@ figure {
     font-size: .75rem;
   }
 
-  .Rajsingh {
+  .popup {
     padding: 16px;
   }
 
-  .Rajsingh-close-btn {
+  .popup-close-btn {
     padding: 6px;
     top: 5px;
     right: 10px;
   }
 
-  .Rajsingh-form-heading {
+  .popup-form-heading {
     font-size: 24px;
   }
 
