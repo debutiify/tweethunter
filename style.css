@@ -2475,6 +2475,9 @@ figure {
   display: none;
 }
 
+.button-wrapper.secondary-button.sec-btton-popup {
+  display: block;
+}
 
 .section {
   align-self: stretch;
@@ -3167,6 +3170,38 @@ figure {
   margin-top: 25px;
   font-weight: 300;
 }
+/*
+.popup-video-player-div {
+  z-index: 9999999;
+  opacity: 0;
+  background-color: #000000b3;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100vw;
+  height: 100vh;
+  padding: 0;
+  display: none;
+  position: fixed;
+  inset: 0%;
+}
+*/
+
+/*
+.popup-container {
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  max-width: 1100px;
+  height: 100%;
+  margin-left: auto;
+  margin-right: auto;
+  display: flex;
+  position: relative;
+  overflow: visible;
+}
+
+*/
 
 .hero-embed {
   width: 100%;
@@ -3185,6 +3220,19 @@ figure {
   height: 100%;
   position: static;
 }
+
+/*
+.popup-cross-container-div {
+  max-width: 1240px;
+  height: 100%;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 40px;
+  display: block;
+  position: relative;
+}
+
+*/
 
 .cross-trigger-div {
   z-index: 999999999;
@@ -3207,12 +3255,45 @@ figure {
   display: none;
 }
 
+.open-popup {
+  text-decoration: none;
+}
+
 .video-element {
   width: 80%;
 }
 
+.popup-bg {
+  display: none;
+}
+
+.sec-popup-button-div {
+  margin-left: auto;
+  margin-right: auto;
+  display: inline-block;
+}
+
 .hide {
   display: none;
+}
+
+.popup-video-player-2 {
+  z-index: 9999999;
+  opacity: 0;
+  background-color: #000000b3;
+  width: 100vw;
+  height: 100vh;
+  display: none;
+  position: fixed;
+  inset: 0%;
+}
+
+.open-popup2 {
+  text-decoration: none;
+}
+
+.popup-bg2 {
+  display: block;
 }
 
 .privacy-policy-heading-div {
@@ -4588,6 +4669,42 @@ figure {
   display: flex;
 }
 
+.popup {
+  z-index: 10;
+  background-color: #fff;
+  justify-content: center;
+  align-items: center;
+  padding: 40px;
+  display: none;
+  position: fixed;
+  inset: 0%;
+  overflow: auto;
+}
+
+.popup.get-access-popup, .popup.invite-popup {
+  z-index: 510;
+  -webkit-backdrop-filter: blur(5px);
+  backdrop-filter: blur(5px);
+  background-color: #ffffffe6;
+  display: none;
+}
+
+.text-block-125 {
+  color: #43bb88;
+  font-size: 20px;
+  font-weight: 700;
+}
+
+.popup-form {
+  grid-column-gap: 16px;
+  grid-row-gap: 10px;
+  flex-direction: column;
+  grid-template-rows: auto auto;
+  grid-template-columns: 1fr 1fr;
+  grid-auto-columns: 1fr;
+  display: flex;
+}
+
 .button-12 {
   background-color: var(--dodger-blue);
   color: #fff;
@@ -4600,6 +4717,40 @@ figure {
   line-height: 1.625rem;
   position: static;
   box-shadow: 8px 8px 48px #316bff80;
+}
+
+.popup-close-btn {
+  cursor: pointer;
+  position: absolute;
+  inset: 24px 32px auto auto;
+}
+
+.popup-close-btn.invite {
+  top: 10px;
+  right: 10px;
+}
+
+.invite-popup-window {
+  background-color: #fff;
+  border-radius: 10px;
+  max-width: 420px;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 30px 30px 15px;
+  position: relative;
+}
+
+.text-block-126 {
+  color: #f16a6a;
+  font-weight: 700;
+}
+
+.popup-form-heading {
+  color: #000;
+  text-align: center;
+  margin-bottom: 1rem;
+  font-size: 36px;
+  font-weight: 600;
 }
 
 .paragraph-3 {
@@ -6942,6 +7093,11 @@ figure {
     margin-top: 15px;
   }
 
+  .popup-cross-container-div {
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+
   .cross-trigger-div {
     margin-right: 20px;
   }
@@ -7583,6 +7739,10 @@ figure {
     display: none;
   }
 
+  .popup-cross-container-div {
+    padding: 0 10px;
+  }
+
   .cross-trigger-div {
     margin-top: 10px;
     margin-right: 10px;
@@ -7612,6 +7772,10 @@ figure {
 
   .video-element {
     width: 95%;
+  }
+
+  .open-popup {
+    display: none;
   }
 
   .privacy-policy-heading-div {
@@ -7776,6 +7940,19 @@ figure {
   .ty-form-fields {
     grid-row-gap: 10px;
     flex-direction: column;
+  }
+
+  .popup {
+    align-items: flex-start;
+  }
+
+  .popup-close-btn {
+    top: 10px;
+    right: 20px;
+  }
+
+  .invite-popup-window {
+    margin-top: 30px;
   }
 
   .is-h2 {
@@ -8213,6 +8390,9 @@ figure {
     width: 60%;
   }
 
+  .popup-bg, .open-popup {
+    display: none;
+  }
 
   .privacy-policy-heading-div {
     margin-bottom: 10px;
@@ -8465,6 +8645,19 @@ figure {
     font-size: .75rem;
   }
 
+  .popup {
+    padding: 16px;
+  }
+
+  .popup-close-btn {
+    padding: 6px;
+    top: 5px;
+    right: 10px;
+  }
+
+  .popup-form-heading {
+    font-size: 24px;
+  }
 
   .heading-146 {
     display: none;
