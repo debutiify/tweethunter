@@ -2500,7 +2500,7 @@ figure {
 .container.navflex {
   justify-content: space-between;
   align-items: center;
-  padding-top: 60px;
+  padding-top: 100px;
   padding-bottom: 20px;
   display: flex;
 }
