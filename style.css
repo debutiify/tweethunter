@@ -2475,10 +2475,6 @@ figure {
   display: none;
 }
 
-.button-wrapper.secondary-button.sec-btton-popup {
-  display: block;
-}
-
 .section {
   align-self: stretch;
 }
@@ -3170,38 +3166,6 @@ figure {
   margin-top: 25px;
   font-weight: 300;
 }
-/*
-.popup-video-player-div {
-  z-index: 9999999;
-  opacity: 0;
-  background-color: #000000b3;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  width: 100vw;
-  height: 100vh;
-  padding: 0;
-  display: none;
-  position: fixed;
-  inset: 0%;
-}
-*/
-
-/*
-.popup-container {
-  justify-content: center;
-  align-items: center;
-  width: 100%;
-  max-width: 1100px;
-  height: 100%;
-  margin-left: auto;
-  margin-right: auto;
-  display: flex;
-  position: relative;
-  overflow: visible;
-}
-
-*/
 
 .hero-embed {
   width: 100%;
@@ -3220,19 +3184,6 @@ figure {
   height: 100%;
   position: static;
 }
-
-/*
-.popup-cross-container-div {
-  max-width: 1240px;
-  height: 100%;
-  margin-left: auto;
-  margin-right: auto;
-  padding: 40px;
-  display: block;
-  position: relative;
-}
-
-*/
 
 .cross-trigger-div {
   z-index: 999999999;
